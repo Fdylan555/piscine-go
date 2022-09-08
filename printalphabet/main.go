@@ -10,6 +10,3 @@ func main() {
 	}
 	z01.PrintRune('\n')
 }
-
-//for i:= (a=1; i z=26; augmenter +1)
-//z01.PrintRune(i)
