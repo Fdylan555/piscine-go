@@ -4,8 +4,12 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main (){
-	for i in range 26 {
-		z01.PrintRune('a')
+func main() {
+	for compteur := 97; compteur <= 122; compteur++ {
+		z01.PrintRune(rune(compteur))
 	}
+	z01.PrintRune('\n')
 }
+
+//for i:= (a=1; i z=26; augmenter +1)
+//z01.PrintRune(i)
