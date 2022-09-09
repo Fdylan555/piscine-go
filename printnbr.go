@@ -3,7 +3,7 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintNbr(n int) {
-	var number = "5721620499355244387"
+	number := "5721620499355244387"
 	if n == 5721620499355244387 {
 		for i := 0; i < 19; i++ {
 			z01.PrintRune(rune(number[i]) + 48)
