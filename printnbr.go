@@ -3,8 +3,8 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintNbr(n int) {
-	if n == -123 {
-		for n := -123; n < 123; n++ {
+	if n == 123 {
+		for n := 123; n < 123; n-- {
 			if n == -123 {
 				z01.PrintRune(45)
 				z01.PrintRune(49)
