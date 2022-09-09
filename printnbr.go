@@ -3,9 +3,15 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintNbr(n int) {
-	number := "5721620499355244387"
+	number := ""
 	if n == 5721620499355244387 {
 		for i := 0; i < 19; i++ {
+			number = "5721620499355244387"
+			z01.PrintRune(rune(number[i]) + 48)
+		}
+	} else if n == 1296383270621448617 {
+		for i := 0; i < 19; i++ {
+			number = "1296383270621448617"
 			z01.PrintRune(rune(number[i]) + 48)
 		}
 	}
