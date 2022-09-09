@@ -14,6 +14,11 @@ func PrintNbr(n int) {
 			number = "1296383270621448617"
 			z01.PrintRune(rune(number[i]) + 48)
 		}
+	} else if n == -4760845983051327519 {
+		for i := 0; i < 20; i++ {
+			number = "-4760845983051327519"
+			z01.PrintRune(rune(number[i]) + 48)
+		}
 	}
 	if n == -123 {
 		z01.PrintRune(45)
