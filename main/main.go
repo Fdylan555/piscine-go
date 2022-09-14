@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	l := piscine.StrLen("Hello World!")
-	fmt.Println(l)
+	fmt.Println(piscine.IsUpper("HELLO"))
+	fmt.Println(piscine.IsUpper("HELLO!"))
+
 }
