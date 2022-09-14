@@ -1,9 +1,9 @@
 package piscine
 
-func IsUpper(s string) bool {
+func IsNumeric(s string) bool {
 	ok := true
 	for _, val := range s {
-		if val < 'A' || val > 'Z' {
+		if val < '0' || val > '9' {
 			ok = false
 		}
 	}
