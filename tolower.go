@@ -1,10 +1,11 @@
 package piscine
 
-import "github.com/01-edu/z01"
-
 func ToLower(s string) string {
-	for _, val := range s {
-		z01.PrintRune(rune(val))
+	val := []rune(s)
+	for i := 0; i < len(val); i++ {
+		if val[i] >= 65 && val[i] <= 90 {
+			val[i] += 32
+		}
 	}
-	return ""
+	return (string(val))
 }
