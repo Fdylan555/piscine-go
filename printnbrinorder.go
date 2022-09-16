@@ -17,7 +17,7 @@ func PrintNbrInOrder(n int) {
 			n /= 10
 			x = append(x, y)
 		}
-		//rentre dans le tableau de rune x[] l'argument n. le nombre revient à étre inversé (8204 -> 4028) mais osef
+		// rentre dans le tableau de rune x[] l'argument n. le nombre revient à étre inversé (8204 -> 4028) mais osef
 		z = len(x)
 		for i := 0; i < z-1; i++ {
 			for j := 0; j < z-i-1; j++ {
