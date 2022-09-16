@@ -28,10 +28,10 @@ func PrintNbrInOrder(n int) {
 				}
 			}
 		}
-		//arange x[] dans l'ordre avec une variable temporaire w
+		// arange x[] dans l'ordre avec une variable temporaire w
 		for i := 0; i < z; i++ {
 			z01.PrintRune(rune(x[i] + 48))
 		}
-		//imprime x[] avec z = len(s) plus haut
+		// imprime x[] avec z = len(s) plus haut
 	}
 }
