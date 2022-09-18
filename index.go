@@ -1,7 +1,7 @@
 package piscine
 
 func index(s, tofind string) int {
-	for i := 0; i <= len(s)-len(tofind); i++ {
+	for i := 0; i <= (len(s) - len(tofind)); i++ {
 		if s[i] == tofind[0] {
 			count := 0
 			for l := 0; l < len(tofind); l++ {
