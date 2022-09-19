@@ -1,13 +1,15 @@
 package piscine
 
-func IterativeFactorial(nb int) int {
-	var a int
+func IterativeFactorial(nb int) int { 
 	var h int
-	a = 0
-	h = 1
+	a := 1
+	//h = 1
+	if nb >= 40 {
+		return 0
+	}
 	for i := 1; i <= nb; i++ {
-		h *= i
-		a = h
+		h = int(i)
+		a *= h
 	}
 
 	return a
