@@ -1,8 +1,6 @@
 package piscine
 
 func RecursiveFactorial(nb int) int {
-	//var h int
-	//a := 1
 	if nb == 0 {
 		return 1
 	}
