@@ -1,6 +1,6 @@
 package piscine
 
-func IterativeFactorial(nb int) int { 
+func IterativeFactorial(nb int) int {
 	var h int
 	a := 1
 	if nb >= 40 {
