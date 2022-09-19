@@ -6,7 +6,7 @@ func IterativeFactorial(nb int) int {
 	a = 0
 	h = 1
 	for i := 1; i <= nb; i++ {
-		 h *= i 
+		h *= i 
 
 	a = h 
 	}
