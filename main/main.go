@@ -6,5 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.RecursivePower(4, 3))
+	n := 0
+	piscine.PointOne(&n)
+	fmt.Println(n)
 }
