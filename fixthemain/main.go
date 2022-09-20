@@ -12,17 +12,17 @@ func PrintStr(s string) {
 	}
 }
 
-func CloseDoor(Door Door) {
+func CloseDoor(Door *Door) {
 	PrintStr("Door Closing...\n")
 	Door.state = "CLOSE"
 }
 
-func OpenDoor(Door Door) {
+func OpenDoor(Door *Door) {
 	PrintStr("Door Opening...\n")
 	Door.state = "OPEN"
 }
 
-func IsDoorOpen(Door Door) bool {
+func IsDoorOpen(Door *Door) bool {
 	PrintStr("is the Door opened ?\n")
 	if Door.state == "OPEN" {
 		return true
@@ -31,7 +31,7 @@ func IsDoorOpen(Door Door) bool {
 	}
 }
 
-func IsDoorClose(Door Door) bool {
+func IsDoorClose(Door *Door) bool {
 	PrintStr("is the Door closed ?\n")
 	if Door.state == "CLOSE" {
 		return true
@@ -41,7 +41,7 @@ func IsDoorClose(Door Door) bool {
 }
 
 func main() {
-	door := Door{}
+	door := &Door{}
 	OpenDoor(door)
 	if IsDoorClose(door) {
 		OpenDoor(door)
