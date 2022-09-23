@@ -1,11 +1,16 @@
 package main
 
 import (
-	"fmt"
-	"os"
+    "os"
+
+    "github.com/01-edu/z01"
 )
 
 func main() {
-	fmt.Fprintf(os.Stderr, "your own program name is %s \n", os.Args[0])
-
+    for i, tt := range os.Args[0] {
+        if i > 1 {
+            z01.PrintRune(tt)
+        }
+    }
+    z01.PrintRune('\n')
 }
